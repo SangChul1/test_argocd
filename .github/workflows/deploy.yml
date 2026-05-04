@@ -9,7 +9,7 @@ on:
       - main
 
 env:
-  IMAGE_NAME: parkpark131/echo-hostname:1.0
+  IMAGE_NAME: parkpark131/echo-hostname
 
 jobs:
   build:
