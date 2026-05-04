@@ -17,7 +17,7 @@ spec:
       - name: dockerhub-secret #docker hub 관련 정보 추가
       containers:
       - name: my-webserver
-        image: parkpark131/echo-hostname:c0276263f2f93b5349bfdde4d77d0c42cdf96a86
+        image: parkpark131/echo-hostname:30b96ee86b8da4727cf179a4d75d3d7dd234e157
         imagePullPolicy: Always
         ports:
         - containerPort: 8000
